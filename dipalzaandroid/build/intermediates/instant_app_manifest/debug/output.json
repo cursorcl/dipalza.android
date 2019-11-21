@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"FULL_SPLIT","splits":[{"filterType":"ABI","value":"x86"}],"versionCode":-1,"enabled":true,"filterName":"x86","outputFile":"dipalzaandroid-x86-debug.apk","fullName":"x86Debug","baseName":"x86-debug"},"path":"x86/AndroidManifest.xml","properties":{"packageId":"cl.eos.dipalza","split":"","minSdkVersion":"29"}}]

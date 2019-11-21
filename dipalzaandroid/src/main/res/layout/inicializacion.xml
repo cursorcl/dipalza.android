@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="159dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblVendedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vendedor" />
+
+        <EditText
+            android:id="@+id/txtVendedor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:ems="10"
+            android:maxLength="3"
+            android:textStyle="bold"
+            android:typeface="normal"
+            />
+
+        <TextView
+            android:id="@+id/lblRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta" />
+
+        <EditText
+            android:id="@+id/txtRuta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:ems="10"
+            android:maxLength="3"
+            android:width="20px" />
+
+        <TextView
+            android:id="@+id/lblIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección IP" />
+
+        <EditText
+            android:id="@+id/txtIp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/lblIva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor I.V.A." />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/txtIva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal" android:scrollbars="vertical" android:scrollbarStyle="insideInset"/>
+
+            <TextView
+                android:id="@+id/lblPercentIva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/simbolo_porcentaje"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+                <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Valor I.L.A." />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/txtIla"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/lblPercentIla"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/simbolo_porcentaje"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

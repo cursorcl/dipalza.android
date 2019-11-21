@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" ><item android:id="@+id/itemResumen" android:title="Resumen Ventas" android:titleCondensed="Resumen Ventas" android:numericShortcut="1" android:visible="true" android:enabled="true" android:alphabeticShortcut="R"></item><item android:id="@+id/itemVentas" android:title="Ventas" android:titleCondensed="Ventas" android:numericShortcut="3" android:enabled="true" android:visible="true" android:alphabeticShortcut="V"></item>
+    <item android:id="@+id/itemInicializacion" android:numericShortcut="4" android:enabled="true" android:alphabeticShortcut="I" android:visible="true" android:titleCondensed="Inicialización" android:title="Inicialización"></item>
+    
+    
+    
+    
+
+</menu>

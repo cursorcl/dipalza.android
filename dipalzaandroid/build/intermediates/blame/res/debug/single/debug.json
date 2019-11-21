@@ -1,0 +1,1302 @@
+[
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_resumen_seleccionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_resumen_seleccionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_transmitir_button.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/transmitir_button.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_tab_btn_recibir_unselected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_tab_btn_recibir_unselected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_stars_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/stars_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_title_recepcion.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/title_recepcion.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_recibir_presionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_recibir_presionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_clientes.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/clientes.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_ventaencabezado.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/ventaencabezado.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_tab_title.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_tab_title.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_emite_ventas.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/emite_ventas.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_tab_btn_recibir_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_tab_btn_recibir_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_ventas.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_ventas.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_transmitir_seleccionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_transmitir_seleccionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_search_alt.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_search_alt.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_search_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_search_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_home_button5.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/home_button5.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_about_alt.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_about_alt.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_mnu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_mnu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_mnu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_mnu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_tab_title.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_tab_title.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_mnu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_mnu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_limpiar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_limpiar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_button1_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/button1_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_title_logo.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/title_logo.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_tab_btn_recibir_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_tab_btn_recibir_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_title_button.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/title_button.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_recibir_seleccionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_recibir_seleccionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_row_detalle_venta.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/row_detalle_venta.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_mnu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_mnu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menumaindipalza.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menumaindipalza.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_ventaregistros.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/ventaregistros.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_mnu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_mnu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_tab_title.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_tab_title.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menudetalle.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menudetalle.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_venn_2_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/venn_2_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_configurar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_configurar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_configurar_seleccionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_configurar_seleccionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_selector_fila.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/selector_fila.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menuencabezado.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menuencabezado.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_logo_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_logo_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menu_inicializacion.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menu_inicializacion.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_activity_search.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_ventas_button.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/ventas_button.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_grabar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_grabar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_stack_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/stack_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/xml_configuracion.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/xml/configuracion.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_search.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_search.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_zoom_in.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/zoom_in.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_header.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/header.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_transmitir_presionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_transmitir_presionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_title_search.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/title_search.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_grabar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_grabar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_search.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_search.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_bg_pressed.9.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_bg_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_logo_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_logo_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_ventas_presionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_ventas_presionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_transmitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/transmitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_resumen_button.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/resumen_button.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_configurar_presionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_configurar_presionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_configurar_button.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/configurar_button.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_home_button6.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/home_button6.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_home_alt.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_home_alt.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_tab_btn_recibir_unselected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_tab_btn_recibir_unselected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_mnu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_mnu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_rel_map_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/rel_map_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_stack_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/stack_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_row_test.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/row_test.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_resumen_presionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_resumen_presionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_light_bulb_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/light_bulb_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_inicializacion.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/inicializacion.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_title.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/title.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_grabar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_grabar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_logo_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_logo_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_header.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/header.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_title_home.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/title_home.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menuventas.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menuventas.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_home_button1.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/home_button1.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_tab_btn_recibir_unselected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_tab_btn_recibir_unselected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_evo_revo_incr_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/evo_revo_incr_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_stars_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/stars_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_header.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/header.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_venn_2_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/venn_2_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_home_button2.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/home_button2.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_bg_selected.9.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_bg_selected.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_evo_revo_incr_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/evo_revo_incr_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_ventas_seleccionado.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_ventas_seleccionado.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_light_bulb_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/light_bulb_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_limpiar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_limpiar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_cancelar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_cancelar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_ventasresumen.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/ventasresumen.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_agregar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_agregar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_rel_map_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/rel_map_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_recibe_clientes_productos.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/recibe_clientes_productos.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_colortabla.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/colortabla.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_direction_up.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/direction_up.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_limpiar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_limpiar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_direction_down.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/direction_down.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_home_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_home_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_mnu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_mnu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_grabar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_grabar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menuproducto.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menuproducto.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_transmitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_transmitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_light_bulb_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/light_bulb_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_stack_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/stack_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_home_button3.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/home_button3.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_cliente.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_cliente.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_search.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_search.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_recibir_button.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/recibir_button.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_eliminar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_eliminar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_tab_btn_recibir_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_tab_btn_recibir_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_title_about.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/title_about.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_resumen.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_resumen.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_tab_btn_recibir_unselected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_tab_btn_recibir_unselected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_detalle_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_detalle_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_home_button4.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/home_button4.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_menu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_tab_btn_recibir_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_tab_btn_recibir_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_terminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_terminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_modificar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_modificar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_fila_seleccionada.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable/fila_seleccionada.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_aceptar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_aceptar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_ventadetalle.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/ventadetalle.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_cancelar_producto.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_cancelar_producto.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_title_about_default.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/title_about_default.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_btn_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/btn_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_eliminar_venta_dos.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_eliminar_venta_dos.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_modificar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_stars_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/stars_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/menu_menu_transmision.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/menu/menu_transmision.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_tab_title.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_tab_title.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_evo_revo_incr_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/evo_revo_incr_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_list.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/list.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_venn_2_selected.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/venn_2_selected.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_agregar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_agregar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_grabar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_grabar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_limpiar.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_limpiar.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_mnu_emitir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_mnu_emitir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_recibir.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_recibir.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-xhdpi_header.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-xhdpi/header.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_eliminar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_eliminar_venta.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_rel_map_pressed.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/rel_map_pressed.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/layout_productos.xml.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/layout/productos.xml"
+    },
+    {
+        "merged": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_modificar_venta.png.flat",
+        "source": "/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_modificar_venta.png"
+    }
+]

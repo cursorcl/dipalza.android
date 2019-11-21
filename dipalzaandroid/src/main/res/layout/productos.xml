@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/TitleBar" >
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:onClick="onClickHome"
+            android:src="@drawable/title_home" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+
+        <TextView style="@style/TitleBarText" />
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:onClick="onClickAbout"
+            android:src="@drawable/title_about" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imgBtnAceptarProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_aceptar_producto" />
+
+        <ImageButton
+            android:id="@+id/imgBtnCancelarProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_cancelar_producto" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="@string/stock" />
+                <TextView
+                    android:id="@+id/txtStock"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dp"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/labelNeto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="2"
+                    android:text="Venta" />
+                <TextView
+                    android:id="@+id/textNetoProducto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/labelArticulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Articulo" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="11" >
+        <AutoCompleteTextView
+        	android:id="@+id/autoCompleteArticulo"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="9"
+        	android:ems="10"
+        	android:inputType="number"
+        	android:nextFocusLeft="@+id/autoCompleteProducto"
+        	android:nextFocusRight="@+id/autoCompleteProducto"
+        	android:nextFocusUp="@+id/autoCompleteProducto"
+            android:editable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+          <requestFocus />
+        </AutoCompleteTextView>
+
+        <AutoCompleteTextView
+        	android:id="@+id/autoCompleteProducto"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="2"
+        	android:ems="10"
+        	android:nextFocusDown="@+id/textCantidad"
+        	android:nextFocusLeft="@id/autoCompleteArticulo"
+        	android:nextFocusRight="@+id/textCantidad"
+        	android:nextFocusUp="@id/autoCompleteArticulo"
+            android:editable="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:weightSum="2">
+
+        <TextView
+            android:id="@+id/labelPrecio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/precio" android:layout_weight="1" android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/labelUnidad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unidad_de_medida" android:layout_weight="1" android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/textPrecioProducto"
+            android:enabled="false"
+            android:editable="false"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/textUnidadProducto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2.65"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_horizontal"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/labelCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Cantidad" />
+
+    <EditText
+    	android:id="@+id/textCantidad"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+    	android:ems="10"
+    	android:inputType="number|numberSigned|numberDecimal"
+    	android:nextFocusDown="@+id/textDescuento"
+    	android:nextFocusRight="@+id/textDescuento"
+      android:nextFocusLeft="@id/autoCompleteArticulo"
+      android:nextFocusUp="@id/autoCompleteArticulo"
+
+        android:focusable="true"
+        android:enabled="true"
+        android:editable="true"
+        android:focusableInTouchMode="true" />
+
+
+    <TextView
+        android:id="@+id/labelDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="% Descuento" />
+
+    <EditText
+    	android:id="@+id/textDescuento"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+    	android:ems="10"
+    	android:inputType="number"
+    	android:nextFocusLeft="@+id/textCantidad"
+    	android:nextFocusUp="@+id/textCantidad"
+        android:focusable="true"
+        android:enabled="true"
+        android:editable="true"
+        android:focusableInTouchMode="true" />
+
+</LinearLayout>

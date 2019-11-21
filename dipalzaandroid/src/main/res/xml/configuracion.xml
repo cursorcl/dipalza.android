@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true"
+    android:title="Configuración" >
+
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:title="Básico" >
+        <EditTextPreference
+            android:dialogTitle="Código vendedor"
+            android:key="pref_vendedor"
+            android:summary="Código de vendedor"
+            android:inputType="number"
+            android:title="Vendedor" />
+        <EditTextPreference
+            android:dialogTitle="Código ruta"
+            android:key="pref_ruta"
+            android:summary="Código de ruta"
+            android:inputType="number"
+            android:title="Ruta" />
+        <EditTextPreference
+            android:dialogTitle="Ruta adicional"
+            android:key="pref_ruta_adicional"
+            android:summary="Código de ruta"
+            android:inputType="number"
+            android:title="Ruta Adicional" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Porcentajes" >
+        <EditTextPreference
+            android:dialogTitle="% IVA"
+            android:key="pref_iva"
+            android:summary="Valor porcentaje IVA"
+            android:inputType="number"
+            android:title="% IVA" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:dialogTitle="% ILA"
+            android:key="pref_ila"
+            android:summary="Valor porcentaje ILA"
+            android:inputType="number"
+            android:title="% ILA" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Conexión" >
+        <EditTextPreference
+            android:dialogTitle="Dirección IP."
+            android:key="pref_ip"
+            android:summary="Dirección IP"
+            android:inputType="textUri"
+            android:title="Servidor" >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

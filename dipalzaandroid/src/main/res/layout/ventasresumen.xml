@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:orientation="vertical" >
+
+	<LinearLayout style="@style/TitleBar" >
+
+		<ImageButton
+			style="@style/TitleBarAction"
+			android:contentDescription="@string/description_home"
+			android:onClick="onClickHome"
+			android:src="@drawable/title_home" />
+
+		<ImageView style="@style/TitleBarSeparator" />
+
+		<TextView style="@style/TitleBarText" />
+
+		<ImageButton
+			style="@style/TitleBarAction"
+			android:contentDescription="@string/description_about"
+			android:onClick="onClickAbout"
+			android:src="@drawable/title_about" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp" >
+
+		<TextView
+			android:id="@+id/labelRNeto"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="Neto"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+			android:id="@+id/textRNeto"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:gravity="right"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="right" >
+
+		<TextView
+			android:id="@+id/labelRILA"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="I.L.A."
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+			android:id="@+id/textRILA"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:gravity="right"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="right" >
+
+		<TextView
+			android:id="@+id/labelRIVA"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="I.V.A."
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+			android:id="@+id/textRIVA"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:gravity="right"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="right" >
+
+		<TextView
+			android:id="@+id/labelRBruto"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center_vertical"
+			android:text="Bruto"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+			android:id="@+id/textRBruto"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:gravity="right"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+</LinearLayout>

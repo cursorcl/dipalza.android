@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnuGrabar"
+        android:alphabeticShortcut="G"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_grabar"
+        android:numericShortcut="2"
+        android:orderInCategory="2"
+        android:title="@string/grabar"
+        android:titleCondensed="Grabar"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/mnuLimpiar"
+        
+        android:alphabeticShortcut="L"
+        android:enabled="true"
+        android:numericShortcut="1"
+        android:orderInCategory="1"
+        android:title="Limpiar"
+        android:titleCondensed="Limpiar"
+        android:visible="true" android:icon="@drawable/ic_menu_limpiar">
+    </item>
+
+</menu>

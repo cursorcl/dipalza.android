@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cl.eos.dipalza">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    -->
+
+    <application
+        android:name="DipalzaApplication"
+        android:allowBackup="false"
+        android:usesCleartextTraffic="true"
+        android:icon="@drawable/ic_launcher"
+        android:testOnly="false"
+        android:theme="@style/Theme.D1">
+        <activity
+            android:name="cl.eos.dipalza.MainDipalza"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:icon="@drawable/ic_launcher"
+            android:label="Ventas"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Clientes"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Clientes"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="VentaEncabezado"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Venta"
+            android:theme="@style/Theme.D1">
+        </activity>
+        <activity
+            android:name="VentaDetalle"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Detalle Venta"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="Productos"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Productos"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="ActivityConfiguracion"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Configuración"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="VentaRegistros"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Ventas"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="EnviarVentas"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Transmisión"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="RecepcionCP"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Recepción"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="VentasResumen"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Resumen Ventas"
+            android:theme="@style/Theme.D1" >
+        </activity>
+        <activity
+            android:name="AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Acerca De"
+            android:theme="@style/Theme.D1" >
+        </activity>
+
+    </application>
+
+</manifest>

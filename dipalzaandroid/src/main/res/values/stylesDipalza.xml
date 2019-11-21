@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FondoBarraDipalza">
+        <item name="android:background">#3366CC</item>
+    </style>
+
+    <style name="TemaDipalza" parent="android:Theme">
+        <item name="android:windowTitleSize">45dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/FondoBarraDipalza</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+</resources>

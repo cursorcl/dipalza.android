@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cl.eos.dipalza" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="29"
+6-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:8:5-67
+9-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:8:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:9:5-79
+10-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:9:22-76
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:10:5-76
+11-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:10:22-73
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:11:5-66
+12-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:11:22-63
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:12:5-79
+13-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:12:22-76
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:13:5-85
+14-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:13:22-82
+15
+16    <!--
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+20    -->
+21    <application
+21-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:20:5-101:19
+22        android:name="cl.eos.dipalza.DipalzaApplication"
+22-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:21:9-42
+23        android:allowBackup="false"
+23-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:22:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/ec609e8cee787e2dff3592c66b08a66a/core-1.0.0/AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_launcher"
+26-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:24:9-45
+27        android:testOnly="true"
+27-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:25:9-33
+28        android:theme="@style/Theme.D1"
+28-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:26:9-40
+29        android:usesCleartextTraffic="true" >
+29-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:23:9-44
+30        <activity
+30-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:27:9-39:20
+31            android:name="cl.eos.dipalza.MainDipalza"
+31-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:28:13-54
+32            android:configChanges="keyboard|keyboardHidden|orientation"
+32-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:29:13-72
+33            android:icon="@drawable/ic_launcher"
+33-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:30:13-49
+34            android:label="Ventas"
+34-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:31:13-35
+35            android:launchMode="standard"
+35-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:32:13-42
+36            android:screenOrientation="portrait" >
+36-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:33:13-49
+37            <intent-filter>
+37-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:34:13-38:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:35:17-69
+38-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:35:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:37:17-77
+40-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:37:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:40:9-45:20
+44            android:name="cl.eos.dipalza.Clientes"
+44-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:41:13-36
+45            android:configChanges="keyboard|keyboardHidden|orientation"
+45-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:42:13-72
+46            android:label="Clientes"
+46-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:43:13-37
+47            android:theme="@style/Theme.D1" >
+47-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:44:13-44
+48        </activity>
+49        <activity
+49-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:46:9-51:20
+50            android:name="cl.eos.dipalza.VentaEncabezado"
+50-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:47:13-43
+51            android:configChanges="keyboard|keyboardHidden|orientation"
+51-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:48:13-72
+52            android:label="Venta"
+52-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:49:13-34
+53            android:theme="@style/Theme.D1" >
+53-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:50:13-44
+54        </activity>
+55        <activity
+55-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:52:9-57:20
+56            android:name="cl.eos.dipalza.VentaDetalle"
+56-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:53:13-40
+57            android:configChanges="keyboard|keyboardHidden|orientation"
+57-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:54:13-72
+58            android:label="Detalle Venta"
+58-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:55:13-42
+59            android:theme="@style/Theme.D1" >
+59-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:56:13-44
+60        </activity>
+61        <activity
+61-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:58:9-63:20
+62            android:name="cl.eos.dipalza.Productos"
+62-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:59:13-37
+63            android:configChanges="keyboard|keyboardHidden|orientation"
+63-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:60:13-72
+64            android:label="Productos"
+64-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:61:13-38
+65            android:theme="@style/Theme.D1" >
+65-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:62:13-44
+66        </activity>
+67        <activity
+67-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:64:9-69:20
+68            android:name="cl.eos.dipalza.ActivityConfiguracion"
+68-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:65:13-49
+69            android:configChanges="keyboard|keyboardHidden|orientation"
+69-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:66:13-72
+70            android:label="Configuración"
+70-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:67:13-42
+71            android:theme="@style/Theme.D1" >
+71-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:68:13-44
+72        </activity>
+73        <activity
+73-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:70:9-75:20
+74            android:name="cl.eos.dipalza.VentaRegistros"
+74-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:71:13-42
+75            android:configChanges="keyboard|keyboardHidden|orientation"
+75-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:72:13-72
+76            android:label="Ventas"
+76-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:73:13-35
+77            android:theme="@style/Theme.D1" >
+77-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:74:13-44
+78        </activity>
+79        <activity
+79-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:76:9-81:20
+80            android:name="cl.eos.dipalza.EnviarVentas"
+80-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:77:13-40
+81            android:configChanges="keyboard|keyboardHidden|orientation"
+81-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:78:13-72
+82            android:label="Transmisión"
+82-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:79:13-40
+83            android:theme="@style/Theme.D1" >
+83-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:80:13-44
+84        </activity>
+85        <activity
+85-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:82:9-87:20
+86            android:name="cl.eos.dipalza.RecepcionCP"
+86-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:83:13-39
+87            android:configChanges="keyboard|keyboardHidden|orientation"
+87-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:84:13-72
+88            android:label="Recepción"
+88-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:85:13-38
+89            android:theme="@style/Theme.D1" >
+89-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:86:13-44
+90        </activity>
+91        <activity
+91-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:88:9-93:20
+92            android:name="cl.eos.dipalza.VentasResumen"
+92-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:89:13-41
+93            android:configChanges="keyboard|keyboardHidden|orientation"
+93-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:90:13-72
+94            android:label="Resumen Ventas"
+94-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:91:13-43
+95            android:theme="@style/Theme.D1" >
+95-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:92:13-44
+96        </activity>
+97        <activity
+97-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:94:9-99:20
+98            android:name="cl.eos.dipalza.AboutActivity"
+98-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:95:13-41
+99            android:configChanges="keyboard|keyboardHidden|orientation"
+99-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:96:13-72
+100            android:label="Acerca De"
+100-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:97:13-38
+101            android:theme="@style/Theme.D1" >
+101-->/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/src/main/AndroidManifest.xml:98:13-44
+102        </activity>
+103        <activity
+103-->[com.google.android.gms:play-services-base:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/41c18cd7600ecdb7b8f5998d4f91eabe/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/41c18cd7600ecdb7b8f5998d4f91eabe/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:17.0.0] /home/cursor/.gradle/caches/transforms-2/files-2.1/41c18cd7600ecdb7b8f5998d4f91eabe/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+111    </application>
+112
+113</manifest>

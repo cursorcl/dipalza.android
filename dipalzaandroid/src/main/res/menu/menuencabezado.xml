@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/itemVerCliente" android:titleCondensed="Ver Cliente" android:alphabeticShortcut="VC" android:title="Ver Cliente" android:numericShortcut="1" android:orderInCategory="1" android:enabled="true" android:visible="true" android:icon="@drawable/ic_menu_cliente"></item><item
+        android:id="@+id/itemDetalleVenta"
+        android:alphabeticShortcut="D"
+        android:enabled="true"
+        android:numericShortcut="2"
+        android:orderInCategory="2"
+        android:title="Detalle Venta"
+        android:titleCondensed="Detalle Venta"
+        android:visible="true" android:icon="@drawable/ic_menu_detalle_venta">
+    </item>
+    <item android:id="@+id/itemTerminarVenta" android:alphabeticShortcut="T" android:enabled="true" android:visible="true" android:titleCondensed="Terminar" android:numericShortcut="3" android:title="Terminar venta" android:orderInCategory="3" android:icon="@drawable/ic_menu_terminar_venta"></item>
+    <item android:id="@+id/itemCancelarVenta" android:alphabeticShortcut="C" android:enabled="true" android:visible="true" android:titleCondensed="Cancelar" android:numericShortcut="4" android:title="Cancelar venta" android:orderInCategory="4" android:icon="@drawable/ic_menu_cancelar_venta"></item>
+    
+
+</menu>

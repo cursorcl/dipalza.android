@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EjemploAndroidActivity!</string>
+    <string name="app_name">Ventas Dipalza
+</string>
+    <string name="ventas_dipalza">Ventas Dipalza</string>
+    <string name="simbolo_porcentaje">%</string>
+    <string name="grabar">Grabar</string>
+    <string name="txt_clientes">Clientes</string>
+    <string name="txt_productos">Productos</string>
+    <string name="txt_cerrar">Cerrar</string>
+    <string name="txt_cancelar">Cancelar</string>
+    <string name="txt_recibir">Recepción</string>
+    <string name="txt_ventas">Ventas</string>
+    <string name="txt_registro_venta">Registro de venta</string>
+    <string name="title_about">About</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="about_intro">Aplicación de ventas desarrollada para la empresa DIPALZA ltda.
+Eliecer Osorio V. cursor.cl@gmail.com y Susan Farías Z. susan.farias@gmail.com</string>
+    <string name="search_intro">Content for the Search page goes here.</string>
+    <string name="description_logo">Demo</string>
+    <string name="description_about">About</string>
+    <string name="description_home">Home</string>
+    <string name="description_search">Buscar</string>
+    <string name="title_feature1">Recibir</string>
+    <string name="title_feature2">Transmitir</string>
+    <string name="title_feature3">Resumen</string>
+    <string name="title_feature4">Configurar</string>
+    <string name="title_feature5">Ventas</string>
+    <string name="title_feature6">Acerca de</string>
+    <string name="fehca_ultima_recepcion">Última recepción</string>
+    <string name="fecha_ultima_transmision">Ultima Transmisión</string>
+    <string name="stock">Stock</string>
+    <string name="unidad_de_medida">Unidad de medida</string>
+    <string name="precio">Precio</string>
+    <string name="txtEspeciales">Prod. Especiales</string>
+    <string name="config_direccion">Dirección IP del Servidor:</string>
+    <string name="config_vendedor">Código Vendedor:</string>
+    <string name="config_ruta">Código Ruta:</string>
+    <string name="config_iva">Valor I.V.A.:</string>
+    <string name="config_ila">Valor I.L.A.:</string>
+    <string name="WIFI_DESCONECTADO">WIFI desconectado</string>
+    <string name="CONECTE_WIFI">Conecte el wifi.</string>
+    <string name="DIPALZA_NAME">Dipalza:</string>
+    <string name="BORRAR_INFORMACION">Desea borrar toda la información?</string>
+    <string name="TERMINO_TRANSMISION">Espere al término de transmisión</string>
+    <string name="INFO_CHANNEL_ID">cl.eos.dipalza.INFO_CHANNEL</string>
+    <string name="INFO_CHANNEL_NAME">INFO</string>
+    <string name="INFO_CHANNEL_DESC">Canal que presenta información.</string>
+    <string name="ERROR_CHANNEL_ID">cl.eos.dipalza.ERROR_CHANNEL</string>
+    <string name="ERROR_CHANNEL_NAME">ERROR</string>
+    <string name="ERROR_CHANNEL_DESC">Canal que presenta mensajes de error.</string>
+    <string name="location_updated">Posición actualizada: %1$s</string>
+    <string name="launch_activity">Lanzar Actividad</string>
+    <string name="remove_location_updates">Quitando actualización de posición</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemAgregarProducto"
+        android:alphabeticShortcut="A"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_agregar_producto"
+        android:numericShortcut="1"
+        android:orderInCategory="1"
+        android:title="Agregar producto"
+        android:titleCondensed="Agregar producto"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/itemEliminarProducto"
+        android:alphabeticShortcut="E"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_eliminar_venta_dos"
+        android:numericShortcut="3"
+        android:orderInCategory="2"
+        android:title="Eliminar producto"
+        android:titleCondensed="Eliminar producto"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/itemFinalizar"
+        android:alphabeticShortcut="F"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_grabar_producto"
+        android:numericShortcut="4"
+        android:orderInCategory="3"
+        android:title="Finalizar"
+        android:titleCondensed="Finalizar"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/itemCancelar"
+        android:title="Cancelar"
+        android:icon="@drawable/ic_menu_cancelar_producto"
+        android:titleCondensed="Cancelar" android:orderInCategory="4">
+    </item>
+
+</menu>
