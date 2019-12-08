@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cl.eos.dipalza.test">
+    package="cl.eos.dipalza.cl.eos.test">
 
     <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="cl.eos.dipalza"
+                     android:targetPackage="cl.eos.dipalza.cl.eos"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for cl.eos.dipalza"/>
+                     android:label="Tests for cl.eos.dipalza.cl.eos"/>
 </manifest>

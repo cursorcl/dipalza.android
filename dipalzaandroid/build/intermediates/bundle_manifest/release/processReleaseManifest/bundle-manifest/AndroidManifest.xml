@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.eos.dipalza.cl.eos"
+    android:versionCode="1"
+    android:versionName="DIP-1" >
+
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="cl.eos.dipalza.DipalzaApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/ic_launcher"
+        android:installLocation="internalOnly"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.D1"
+        android:usesCleartextTraffic="true" >
+        <receiver
+            android:name="cl.eos.dipalza.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <!--
+        <receiver
+            android:name=".DipalzaReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        -->
+        <activity
+            android:name="cl.eos.dipalza.MainDipalza"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:icon="@drawable/ic_launcher"
+            android:label="Ventas"
+            android:launchMode="standard"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cl.eos.dipalza.Clientes"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Clientes"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.VentaEncabezado"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Venta"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.VentaDetalle"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Detalle Venta"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.Productos"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Productos"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.ActivityConfiguracion"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Configuración"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.VentaRegistros"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Ventas"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.EnviarVentas"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Transmisión"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.RecepcionCP"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Recepción"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.VentasResumen"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Resumen Ventas"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="cl.eos.dipalza.AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="Acerca De"
+            android:theme="@style/Theme.D1" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

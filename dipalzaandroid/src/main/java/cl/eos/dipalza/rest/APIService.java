@@ -34,7 +34,8 @@ import retrofit2.http.Path;
 
 public interface APIService {
 	 //String BASE_URL = "http://servcamiones.test/api/";
-	String BASE_URL = "http://10.0.2.2:8000/api/";
+	//String BASE_URL = "http://10.0.2.2:8000/api/";
+	String BASE_URL = "http://www.eospruebas.com/servcamiones/api/";
 
 
 	@Headers("Content-Type: application/json")

@@ -30,9 +30,7 @@ public class Fabrica
 
 	/**
 	 * Constructor de la clase.
-	 * 
-	 * @param pContext
-	 *            Referencia a context.
+	 *
 	 */
 	public Fabrica()
 	{

@@ -45,5 +45,7 @@ public class DecProductoArticulo extends AbstractDecorator<OTProducto> {
             retorno = buffer.toString();
         }
         return retorno;
-    } 
+    }
+
+
 }

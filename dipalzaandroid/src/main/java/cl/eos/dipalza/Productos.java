@@ -176,8 +176,11 @@ public class Productos extends DashboardActivity /* implements TextWatcher */ {
         autoCompleteArticulo = findViewById(R.id.autoCompleteArticulo);
 
         autoCompleteArticulo.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, listaArticulos));
-/*        autoCompleteArticulo.setOnItemClickListener((elemento, arg1, position, arg3) -> {
-            productoSeleccionado = ((DecProductoArticulo) elemento.getAdapter().getItem(position)).getObject();
+        autoCompleteArticulo.setOnItemClickListener((elemento, arg1, position, arg3) -> {
+            productoSeleccionado = ((DecProductoArticulo) autoCompleteArticulo.getAdapter().getItem(position)).getObject();
+            if (productoSeleccionado == null)
+                return;
+
             autoCompleteArticulo.setText(productoSeleccionado.getArticulo());
             autoCompleteProducto = findViewById(R.id.autoCompleteProducto);
             autoCompleteProducto.setText(productoSeleccionado.getNombre());
@@ -190,42 +193,47 @@ public class Productos extends DashboardActivity /* implements TextWatcher */ {
             textPrecio.setFocusableInTouchMode(esEspecial);
 
             completarDatosProductos();
-        });*/
+        });
 
         autoCompleteArticulo.addTextChangedListener(new AbstractTextWatcher() {
             public void afterTextChanged(Editable s) {
                 if (Productos.this.autoCompleteArticulo.length() == 0 && !internal) {
                     limpiarControlArticulo();
                 } else if (Productos.this.autoCompleteArticulo.length() == 3 && !internal) {
-                    String codigo = Productos.this.autoCompleteArticulo.getText().toString();
-                    for (DecProductoArticulo dec : listaArticulos) {
-                        if (dec.getObject().getArticulo().equalsIgnoreCase(codigo)) {
-                            productoSeleccionado = dec.getObject();
-                            autoCompleteProducto = findViewById(R.id.autoCompleteProducto);
-                            autoCompleteProducto.setText(dec.getObject().getNombre());
-                            autoCompleteProducto.requestFocus();
-                            autoCompleteProducto.dismissDropDown();
-                            boolean esEspecial = false;
-                            if (dec.getObject().getArticulo() != null) {
-                                esEspecial = Fabrica.obtenerInstancia().obtenerModeloDipalza()
-                                        .esEspecial(dec.getObject().getArticulo());
-                            }
-
-                            textPrecio.setFocusable(esEspecial);
-                            textPrecio.setEnabled(esEspecial);
-                            textPrecio.setClickable(esEspecial);
-                            textPrecio.setFocusableInTouchMode(esEspecial);
-                            productoSeleccionado = dec.getObject();
-                            completarDatosProductos();
-                            textCantidad.requestFocus();
-                            break;
-                        }
+                    if (listaArticulos == null || listaArticulos.isEmpty()) {
+                        limpiarControlArticulo();
+                        return;
                     }
+                    String codigo = Productos.this.autoCompleteArticulo.getText().toString();
+                    DecProductoArticulo dec = listaArticulos.stream().filter(a -> a.getObject().getArticulo().equalsIgnoreCase(codigo)).findFirst().orElse(null);
+                    if (dec == null) {
+                        limpiarControlArticulo();
+                        return;
+                    }
+                    productoSeleccionado = dec.getObject();
+                    autoCompleteProducto = findViewById(R.id.autoCompleteProducto);
+                    autoCompleteProducto.setText(dec.getObject().getNombre());
+                    autoCompleteProducto.requestFocus();
+                    autoCompleteProducto.dismissDropDown();
+                    boolean esEspecial = false;
+                    if (dec.getObject().getArticulo() != null) {
+                        esEspecial = Fabrica.obtenerInstancia().obtenerModeloDipalza()
+                                .esEspecial(dec.getObject().getArticulo());
+                    }
+
+                    textPrecio.setFocusable(esEspecial);
+                    textPrecio.setEnabled(esEspecial);
+                    textPrecio.setClickable(esEspecial);
+                    textPrecio.setFocusableInTouchMode(esEspecial);
+                    productoSeleccionado = dec.getObject();
+                    completarDatosProductos();
+                    textCantidad.requestFocus();
                 }
             }
         });
 
-        autoCompleteArticulo.setOnFocusChangeListener((v, hasFocus) -> {
+        autoCompleteArticulo.setOnFocusChangeListener((v, hasFocus) ->
+        {
             InputMethodManager imm =
                     (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
 
@@ -246,7 +254,7 @@ public class Productos extends DashboardActivity /* implements TextWatcher */ {
                 android.R.layout.simple_dropdown_item_1line, listaNombres));
         autoCompleteProducto.setOnItemClickListener((elemento, arg1, position, arg3) -> {
             productoSeleccionado =
-                    ((DecProductoNombre) elemento.getAdapter().getItem(position)).getObject();
+                    ((DecProductoNombre) autoCompleteProducto.getAdapter().getItem(position)).getObject();
             autoCompleteProducto.setText(productoSeleccionado.getNombre());
             autoCompleteArticulo = findViewById(R.id.autoCompleteArticulo);
             autoCompleteArticulo.setText(productoSeleccionado.getArticulo());
@@ -332,16 +340,17 @@ public class Productos extends DashboardActivity /* implements TextWatcher */ {
      * Metodo que genera decorador de la liosta de productos por articulo y por nombre.
      */
     private void inicializarDecoradoresListaProductos() {
-        List<OTProducto> listaProductos =
-                Fabrica.obtenerInstancia().obtenerModeloDipalza().obtenerProductos();
+        List<OTProducto> listaProductos = Fabrica.obtenerInstancia().obtenerModeloDipalza().obtenerProductos();
         listaArticulos = new LinkedList<DecProductoArticulo>();
         listaNombres = new LinkedList<DecProductoNombre>();
-        for (OTProducto elemento : listaProductos) {
-            DecProductoArticulo productoArticulo = new DecProductoArticulo(elemento);
-            DecProductoNombre productoNombre = new DecProductoNombre(elemento);
-            listaArticulos.add(productoArticulo);
-            listaNombres.add(productoNombre);
-        }
+
+        if (listaProductos == null || listaProductos.isEmpty())
+            return;
+
+        listaProductos.forEach(elemento -> {
+            listaArticulos.add(new DecProductoArticulo(elemento));
+            listaNombres.add(new DecProductoNombre(elemento));
+        });
     }
 
     /**
