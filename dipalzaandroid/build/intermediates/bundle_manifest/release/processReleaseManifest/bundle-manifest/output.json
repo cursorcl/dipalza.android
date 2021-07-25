@@ -1,1 +1,0 @@
-[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"DIP-1","enabled":true,"outputFile":"dipalzaandroid-release-unsigned.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"cl.eos.dipalza.cl.eos","split":"","minSdkVersion":"29"}}]

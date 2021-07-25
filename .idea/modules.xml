@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dipalza.android.iml" filepath="$PROJECT_DIR$/dipalza.android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dipalzaandroid/dipalzaandroid.iml" filepath="$PROJECT_DIR$/dipalzaandroid/dipalzaandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dipalzaandroid/dipalza.android.dipalzaandroid.iml" filepath="$PROJECT_DIR$/.idea/modules/dipalzaandroid/dipalza.android.dipalzaandroid.iml" />
     </modules>
   </component>
 </project>

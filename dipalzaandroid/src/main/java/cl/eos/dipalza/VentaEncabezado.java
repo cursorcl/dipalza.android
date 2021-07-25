@@ -174,12 +174,12 @@ public class VentaEncabezado extends DashboardActivity
 		listaCondicionPago = new LinkedList<ObjetosClase>();
 		// La poblamos con los ejemplos
 		listaCondicionPago.add(new ObjetosClase(1, "CONTADO"));
-		listaCondicionPago.add(new ObjetosClase(2, "CREDITO 7"));
-		listaCondicionPago.add(new ObjetosClase(3, "CREDITO 15"));
-		listaCondicionPago.add(new ObjetosClase(4, "CHEQUE V. 30"));
-		listaCondicionPago.add(new ObjetosClase(5, "CHEQUE T. 15"));
-		listaCondicionPago.add(new ObjetosClase(6, "CHEQUE T. 20"));
-		listaCondicionPago.add(new ObjetosClase(7, "CHEQUE T. 30"));
+		listaCondicionPago.add(new ObjetosClase(2, "CREDITO V. 7"));
+		listaCondicionPago.add(new ObjetosClase(3, "CREDITO V. 15"));
+		listaCondicionPago.add(new ObjetosClase(4, "EFECTIVO"));
+		listaCondicionPago.add(new ObjetosClase(5, "TRANSF.TRANSPORTE"));
+		listaCondicionPago.add(new ObjetosClase(6, "TRANSF.VENDEDOR"));
+		listaCondicionPago.add(new ObjetosClase(7, "CHEQUE TRANSPORTE"));
 		// Creamos el adaptador
 		ArrayAdapter<ObjetosClase> spinner_adapter = new ArrayAdapter<ObjetosClase>(this,
 						android.R.layout.simple_spinner_item, listaCondicionPago);

@@ -1,4 +1,0 @@
-#Sun Dec 08 19:23:51 CLST 2019
-base.0=/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

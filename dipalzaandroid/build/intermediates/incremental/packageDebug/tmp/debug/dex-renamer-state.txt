@@ -1,7 +1,0 @@
-#Sun Dec 08 18:17:09 CLST 2019
-base.0=/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/home/cursor/dev/AndroidStudioProjects/dipalza.android/dipalzaandroid/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
