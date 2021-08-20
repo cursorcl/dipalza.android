@@ -1,10 +1,10 @@
 package cl.eos.dipalza.transmision.eventos.ottransmision;
 
+import android.util.Log;
+
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.util.LinkedList;
-
-import android.util.Log;
 
 public class OTTListaDeClientes extends OTTListTransmisibles<OTTCliente> {
 

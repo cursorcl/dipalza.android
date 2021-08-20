@@ -1,8 +1,5 @@
 package cl.eos.dipalza;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -11,9 +8,6 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
@@ -22,6 +16,10 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ImageButton;
 import android.widget.TableLayout;
 import android.widget.TextView;
+
+import java.util.LinkedList;
+import java.util.List;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTEVenta;
 import cl.eos.dipalza.ot.OTItemVenta;
@@ -179,42 +177,6 @@ public class VentaDetalle extends DashboardActivity implements OnCheckedChangeLi
 	protected void cancelar()
 	{
 		finish();
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu)
-	{
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menudetalle, menu);
-		return true;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item)
-	{
-		switch (item.getItemId())
-		{
-		case R.id.itemAgregarProducto:
-			agregarModificarProducto(null);
-			return true;
-		case R.id.itemEliminarProducto:
-			eliminarProducto();
-			return true;
-		case R.id.itemFinalizar:
-			finalizar();
-			return true;
-		case R.id.itemCancelar:
-			cancelar();
-			return true;
-		default:
-			return super.onOptionsItemSelected(item);
-		}
 	}
 
 	/**
@@ -379,18 +341,11 @@ public class VentaDetalle extends DashboardActivity implements OnCheckedChangeLi
 	public void onActivityResult(int requestCode, int resultCode, Intent data)
 	{
 		super.onActivityResult(requestCode, resultCode, data);
-		switch (requestCode)
+		if(requestCode == 1 && resultCode == Activity.RESULT_OK)
 		{
-		case (1):
-		{
-			if (resultCode == Activity.RESULT_OK)
-			{
-				Bundle bundle = data.getExtras();
-				OTProductoVenta productoVenta = (OTProductoVenta) bundle.get(PRODUCTO_VENTA);
-				agregarRegistroProducto(productoVenta);
-			}
-			break;
-		}
+			Bundle bundle = data.getExtras();
+			OTProductoVenta productoVenta = (OTProductoVenta) bundle.get(PRODUCTO_VENTA);
+			agregarRegistroProducto(productoVenta);
 		}
 		rowSeleccionada = null;
 	}

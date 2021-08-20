@@ -9,19 +9,15 @@
 
 		<ImageButton
 			style="@style/TitleBarAction"
+			android:background="#F4511E"
 			android:contentDescription="@string/description_home"
 			android:onClick="onClickHome"
 			android:src="@drawable/title_home" />
 
-		<ImageView style="@style/TitleBarSeparator" />
+		<TextView
+			style="@style/TitleBarText"
+			android:background="#F4511E" />
 
-		<TextView style="@style/TitleBarText" />
-
-		<ImageButton
-			style="@style/TitleBarAction"
-			android:contentDescription="@string/description_about"
-			android:onClick="onClickAbout"
-			android:src="@drawable/title_about" />
 	</LinearLayout>
 
 	<LinearLayout

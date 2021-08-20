@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TableRow;
 import android.widget.TextView;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTProductoVenta;
 

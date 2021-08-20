@@ -1,19 +1,17 @@
 package cl.eos.dipalza.transmision;
 
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+
+import com.grupo.biblioteca.MessageToTransmit;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-
-import com.grupo.biblioteca.MessageToTransmit;
-
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 
 import cl.eos.dipalza.ActivityHandler;
 
@@ -46,6 +44,7 @@ public class ConexionTCP implements Runnable {
 
         socket = new Socket(ipDirection, port);
         output = new ObjectOutputStream(socket.getOutputStream());
+        output.flush();
         input = new ObjectInputStream(socket.getInputStream());
         alive = true;
 
@@ -94,6 +93,7 @@ public class ConexionTCP implements Runnable {
         new Thread(() -> {
             try {
                 output.writeObject(mensaje);
+                output.flush();
             } catch (Exception e) {
                 e.printStackTrace();
             }

@@ -1,27 +1,18 @@
 package cl.eos.dipalza;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.os.Bundle;
 import android.text.Editable;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.View.OnFocusChangeListener;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Locale;
 
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTProducto;
@@ -373,33 +364,6 @@ public class Productos extends DashboardActivity /* implements TextWatcher */ {
         double valorPrecioNeto = floatPrecio * doubleCantidad;
         doubleValorNeto = valorPrecioNeto * (1.0 - (doubleDescuento / 100d));
         textPrecioNeto.setText(Fabrica.getDecimalFormat().format(doubleValorNeto));
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menuproducto, menu);
-        return true;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.itemAceptarProducto:
-                agregarProducto();
-                return true;
-            case R.id.itemCancelarProducto:
-                cancelarProducto();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
     }
 
     /**

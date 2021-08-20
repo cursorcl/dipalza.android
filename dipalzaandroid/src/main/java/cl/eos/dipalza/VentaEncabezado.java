@@ -1,9 +1,5 @@
 package cl.eos.dipalza;
 
-import java.sql.Date;
-import java.util.LinkedList;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,9 +7,6 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Editable;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -23,6 +16,11 @@ import android.widget.AutoCompleteTextView;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.sql.Date;
+import java.util.LinkedList;
+import java.util.List;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTCliente;
 import cl.eos.dipalza.ot.OTEVenta;
@@ -386,41 +384,6 @@ public class VentaEncabezado extends DashboardActivity
 		txtTelefono.setText(clienteSeleccionado.getTelefono());
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu)
-	{
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menuencabezado, menu);
-		return true;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item)
-	{
-		switch (item.getItemId())
-		{
-		case R.id.itemVerCliente:
-			verDetalleCliente();
-			return true;
-		case R.id.itemDetalleVenta:
-			generarDetalleVenta();
-			return true;
-		case R.id.itemTerminarVenta:
-			terminarVenta();
-			return true;
-		case R.id.itemCancelarVenta:
-			cancelarVenta();
-			return true;
-		default:
-			return super.onOptionsItemSelected(item);
-		}
-	}
 
 	/**
 	 * Metodo que cancela venta.
@@ -492,11 +455,7 @@ public class VentaEncabezado extends DashboardActivity
 	public void onActivityResult(int requestCode, int resultCode, Intent data)
 	{
 		super.onActivityResult(requestCode, resultCode, data);
-		switch (requestCode)
-		{
-		case (1):
-		{
-			if (resultCode == Activity.RESULT_OK)
+		if (requestCode == 1 && resultCode == Activity.RESULT_OK)
 			{
 				Bundle bundle = data.getExtras();
 				venta = (OTVenta) bundle.get(VENTA);
@@ -509,9 +468,6 @@ public class VentaEncabezado extends DashboardActivity
 					finish();
 				}
 			}
-			break;
-		}
-		}
 	}
 
 	/**

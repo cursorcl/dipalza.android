@@ -1,11 +1,12 @@
 package cl.eos.dipalza.factory;
 
-import java.text.DecimalFormat;
-import java.text.SimpleDateFormat;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+
 import cl.eos.dipalza.ActivityConfiguracion;
 import cl.eos.dipalza.DipalzaApplication;
 import cl.eos.dipalza.modelo.ModeloDipalza;

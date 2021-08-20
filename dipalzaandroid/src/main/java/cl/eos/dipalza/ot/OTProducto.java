@@ -156,7 +156,7 @@ public class OTProducto implements Serializable, IOTObject{
 
 	/**
 	 * Establece el valor al atributo precio.
-	 * @param precion  el valor a establecer a precio.
+	 * @param precio  el valor a establecer a precio.
 	 */
 	public final void setPrecio(final Float precio) {
 		this.precio = precio;

@@ -2,30 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <LinearLayout style="@style/TitleBar" >
+    <LinearLayout style="@style/TitleBar">
 
         <ImageButton
             style="@style/TitleBarAction"
+            android:background="#F4511E"
             android:contentDescription="@string/description_home"
             android:onClick="onClickHome"
             android:src="@drawable/title_home" />
 
-        <ImageView style="@style/TitleBarSeparator" />
+        <TextView
+            style="@style/TitleBarText"
+            android:background="#F4511E" />
 
-        <TextView style="@style/TitleBarText" />
-
-        <ImageButton
-            style="@style/TitleBarAction"
-            android:contentDescription="@string/description_about"
-            android:onClick="onClickAbout"
-            android:src="@drawable/title_about" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="#BA3E17">
 
         <ImageButton
             android:id="@+id/imgBtnAgregarProducto"
@@ -55,8 +52,8 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#7f7f7f"
-        android:paddingBottom="2dp" >
+        android:background="#F4511E"
+        android:paddingBottom="2dp">
 
         <TextView
             android:id="@+id/texttNeto"
@@ -70,8 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
             android:gravity="right"
             android:textStyle="bold" />
     </LinearLayout>
@@ -79,8 +76,8 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#7f7f7f"
-        android:paddingBottom="2dp" >
+        android:background="#F4511E"
+        android:paddingBottom="2dp">
 
         <TextView
             android:id="@+id/textView1"
@@ -94,8 +91,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
             android:gravity="right"
             android:textStyle="bold" />
     </LinearLayout>
@@ -103,8 +100,8 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#7f7f7f"
-        android:paddingBottom="2dp" >
+        android:background="#F4511E"
+        android:paddingBottom="2dp">
 
         <TextView
             android:id="@+id/textView3"
@@ -118,8 +115,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
             android:gravity="right"
             android:textStyle="bold" />
     </LinearLayout>
@@ -127,8 +124,8 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#7f7f7f"
-        android:paddingBottom="2dp" >
+        android:background="#F4511E"
+        android:paddingBottom="2dp">
 
         <TextView
             android:id="@+id/textView5"
@@ -141,10 +138,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
-            android:layout_marginBottom="5dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
             android:gravity="right"
             android:paddingLeft="10px"
             android:textStyle="bold" />
@@ -154,15 +151,14 @@
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#ffcccccc" >
+        android:background="@drawable/xml_bg_color_dipalza">
 
         <TableLayout
             android:id="@+id/tableLayoutProducto"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ffcccccc"
-            android:stretchColumns="0,1" >
-        </TableLayout>
+            android:stretchColumns="0,1"></TableLayout>
     </ScrollView>
 
 </LinearLayout>

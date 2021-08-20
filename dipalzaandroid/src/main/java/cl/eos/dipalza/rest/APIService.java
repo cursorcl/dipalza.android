@@ -6,7 +6,6 @@ import cl.eos.dipalza.rest.parameters.RegisterData;
 import cl.eos.dipalza.rest.responses.PositionResponse;
 import cl.eos.dipalza.rest.responses.User;
 import cl.eos.dipalza.rest.responses.UserResponse;
-import cl.eos.dipalza.rest.responses.Vendedor;
 import cl.eos.dipalza.rest.responses.VendedorResponse;
 import retrofit2.Call;
 import retrofit2.http.Body;

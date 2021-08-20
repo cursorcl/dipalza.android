@@ -1,5 +1,7 @@
 package cl.eos.dipalza.utilitarios;
 
+import static android.widget.Toast.makeText;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Notification;
@@ -13,8 +15,6 @@ import androidx.core.app.NotificationCompat;
 
 import cl.eos.dipalza.MainDipalza;
 import cl.eos.dipalza.R;
-
-import static android.widget.Toast.makeText;
 
 public class EmisorMensajes {
 

@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
-    <LinearLayout style="@style/TitleBar">
-        <ImageButton style="@style/TitleBarAction"
-            android:contentDescription="@string/description_home"
-            android:src="@drawable/title_home"
-            android:onClick="onClickHome" />
+    android:orientation="vertical">
 
-        <ImageView style="@style/TitleBarSeparator" />
-        <TextView style="@style/TitleBarText" />
-        <ImageButton style="@style/TitleBarAction"
-            android:contentDescription="@string/description_about"
-            android:src="@drawable/title_about"
-            android:onClick="onClickAbout" />
+    <LinearLayout style="@style/TitleBar">
+
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:background="#F4511E"
+            android:contentDescription="@string/description_home"
+            android:onClick="onClickHome"
+            android:src="@drawable/title_home" />
+
+        <TextView
+            style="@style/TitleBarText"
+            android:background="#F4511E" />
+
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -38,12 +40,12 @@
             android:id="@+id/txtRecibidoClientes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:gravity="right"
             android:text="Recibidos: 0 de un total de ?"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp" />
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <ProgressBar
             android:id="@+id/pbClientes"
@@ -60,7 +62,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/txtProductos"
@@ -96,9 +98,9 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
@@ -115,22 +117,22 @@
             android:id="@+id/txtRecibidoEspeciales"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recibidos: 0 de un total de ?"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:gravity="right"
-            android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp" />
-
-        <ProgressBar
-            style="?android:attr/progressBarStyleHorizontal"
-            android:id="@+id/pbEspeciales"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:soundEffectsEnabled="true"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:layout_marginLeft="20dp" />
+            android:gravity="right"
+            android:text="Recibidos: 0 de un total de ?"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ProgressBar
+            android:id="@+id/pbEspeciales"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="true" />
 
     </LinearLayout>
 
@@ -138,12 +140,12 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:baselineAligned="true"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
 
         <TextView
@@ -182,11 +184,12 @@
 
     </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/btnRecibirRecepcion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:src="@drawable/transmitir" />
+    <ImageButton
+        android:id="@+id/btnRecibirRecepcion"
+        android:layout_width="131dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/xml_bg_color_dipalza"
+        android:src="@drawable/transmitir" />
 
 </LinearLayout>

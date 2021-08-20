@@ -1,14 +1,15 @@
 package cl.eos.dipalza;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.EditTextPreference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
+
+import java.util.LinkedList;
+import java.util.List;
+
 import cl.eos.dipalza.vistas.impl.IOyente;
 
 /**

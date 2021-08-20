@@ -1,11 +1,12 @@
 package cl.eos.dipalza.transmision.eventos.ottransmision;
 
+import android.util.Log;
+
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import android.util.Log;
 import cl.eos.dipalza.ot.IOTObject;
 import cl.eos.dipalza.ot.OTInicializacion;
 

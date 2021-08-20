@@ -1,10 +1,9 @@
 package cl.eos.dipalza.transmision;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.SynchronousQueue;
-import java.util.concurrent.locks.ReentrantLock;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
 
 import com.grupo.MsgInformaDatos;
 import com.grupo.basedatos.Cliente;
@@ -15,10 +14,10 @@ import com.grupo.biblioteca.MessageToTransmit;
 import com.grupo.biblioteca.VectorClientes;
 import com.grupo.biblioteca.VectorProductos;
 
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.util.Log;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.SynchronousQueue;
+import java.util.concurrent.locks.ReentrantLock;
+
 import cl.eos.dipalza.ActivityHandler;
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTCliente;

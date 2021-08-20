@@ -1,13 +1,12 @@
 package cl.eos.dipalza.transmision;
 
 import com.grupo.basedatos.Cliente;
+import com.grupo.basedatos.Especiales;
 import com.grupo.basedatos.Producto;
 
 import cl.eos.dipalza.ot.OTCliente;
 import cl.eos.dipalza.ot.OTEspeciales;
 import cl.eos.dipalza.ot.OTProducto;
-
-import com.grupo.basedatos.Especiales;
 
 public final class UtilitarioConversion
 {

@@ -1,10 +1,5 @@
 package cl.eos.dipalza.database;
 
-import java.sql.Date;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -13,6 +8,12 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.preference.PreferenceManager;
 import android.util.Log;
+
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 import cl.eos.dipalza.ot.OTCliente;
 import cl.eos.dipalza.ot.OTEVenta;
 import cl.eos.dipalza.ot.OTItemVenta;

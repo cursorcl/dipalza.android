@@ -1,18 +1,5 @@
 package cl.eos.dipalza;
 
-import java.io.IOException;
-import java.net.UnknownHostException;
-import java.util.Date;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-
-import com.grupo.basedatos.IDUnit;
-import com.grupo.biblioteca.EMessagesTypes;
-import com.grupo.biblioteca.MessageToTransmit;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -28,6 +15,19 @@ import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.grupo.basedatos.IDUnit;
+import com.grupo.biblioteca.EMessagesTypes;
+import com.grupo.biblioteca.MessageToTransmit;
+
+import java.io.IOException;
+import java.util.Date;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.transmision.ConexionTCP;
 import cl.eos.dipalza.transmision.ProcesadorCliente;

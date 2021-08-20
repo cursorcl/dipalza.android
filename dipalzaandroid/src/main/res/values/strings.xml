@@ -13,15 +13,15 @@
     <string name="txt_recibir">Recepción</string>
     <string name="txt_ventas">Ventas</string>
     <string name="txt_registro_venta">Registro de venta</string>
-    <string name="title_about">About</string>
-    <string name="title_home">Home</string>
-    <string name="title_search">Search</string>
+    <string name="title_about">Acerca</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_search">Buscar</string>
     <string name="about_intro">Aplicación de ventas desarrollada para la empresa DIPALZA ltda.
 Eliecer Osorio V. cursor.cl@gmail.com y Susan Farías Z. susan.farias@gmail.com</string>
     <string name="search_intro">Content for the Search page goes here.</string>
-    <string name="description_logo">Demo</string>
-    <string name="description_about">About</string>
-    <string name="description_home">Home</string>
+    <string name="description_logo">Dipalza</string>
+    <string name="description_about">Acerca</string>
+    <string name="description_home">Inicio</string>
     <string name="description_search">Buscar</string>
     <string name="title_feature1">Recibir</string>
     <string name="title_feature2">Transmitir</string>
@@ -54,6 +54,10 @@ Eliecer Osorio V. cursor.cl@gmail.com y Susan Farías Z. susan.farias@gmail.com<
     <string name="location_updated">Posición actualizada: %1$s</string>
     <string name="launch_activity">Lanzar Actividad</string>
     <string name="remove_location_updates">Quitando actualización de posición</string>
+    <string name="aplicaci_n_de_ventas">Aplicación de ventas</string>
+    <string name="eliecer_osorio_v_cursor_cl_gmail_com">Eliecer Osorio V. cursor.cl@gmail.com</string>
+    <string name="susan_far_as_z_susan_farias_gmail_com">Susan Farías Z. susan.farias@gmail.com</string>
+    <string name="dipalza_ltda">DIPALZA ltda.</string>
 
 
 </resources>

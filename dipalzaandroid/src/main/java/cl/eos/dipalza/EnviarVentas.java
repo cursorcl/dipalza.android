@@ -1,15 +1,5 @@
 package cl.eos.dipalza;
 
-import java.io.IOException;
-import java.net.UnknownHostException;
-import java.util.Date;
-import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -20,18 +10,12 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Message;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import cl.eos.dipalza.factory.Fabrica;
-import cl.eos.dipalza.ot.OTCliente;
-import cl.eos.dipalza.ot.OTEVenta;
-import cl.eos.dipalza.ot.OTItemVenta;
-import cl.eos.dipalza.ot.OTVenta;
-import cl.eos.dipalza.transmision.ConexionTCP;
-import cl.eos.dipalza.utilitarios.EmisorMensajes;
 
 import com.grupo.basedatos.EncabezadoVenta;
 import com.grupo.basedatos.IDUnit;
@@ -41,6 +25,23 @@ import com.grupo.basedatos.Venta;
 import com.grupo.biblioteca.EMessagesTypes;
 import com.grupo.biblioteca.MessageToTransmit;
 import com.grupo.biblioteca.VectorVenta;
+
+import java.io.IOException;
+import java.util.Date;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import cl.eos.dipalza.factory.Fabrica;
+import cl.eos.dipalza.ot.OTCliente;
+import cl.eos.dipalza.ot.OTEVenta;
+import cl.eos.dipalza.ot.OTItemVenta;
+import cl.eos.dipalza.ot.OTVenta;
+import cl.eos.dipalza.transmision.ConexionTCP;
+import cl.eos.dipalza.utilitarios.EmisorMensajes;
 
 public class EnviarVentas extends ActivityHandler implements OnClickListener
 {
@@ -138,6 +139,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 				EncabezadoVenta encabezado = fromOTEVEntaToEncabezado(otEncabezado);
 				rVenta.setEncabezado(encabezado);
 				notificarAvance(ENCABEZADO, ++nroVentas, ventas.size());
+				Log.w("EOS->", "Ventas:" + nroVentas);
 
 				List<OTItemVenta> itemVentas = venta.getRegistrosVenta();
 				int nroRegistros = 0;
@@ -148,6 +150,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 					ItemVenta itemVenta = fromOTItemVentaToItemVenta(item);
 					rIemesVenta.add(itemVenta);
 					notificarAvance(DETALLE, ++nroRegistros, itemVentas.size());
+					Log.w("EOS->", "Registros:" + nroRegistros);
 				}
 				rVenta.setVentas(rIemesVenta);
 				rVenta.setFecha(encabezado.getFecha());

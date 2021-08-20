@@ -3,6 +3,7 @@ package cl.eos.dipalza;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.widget.TextView;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTResumenVentas;
 

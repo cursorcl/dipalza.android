@@ -4,23 +4,24 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
     <LinearLayout style="@style/TitleBar">
-        <ImageButton style="@style/TitleBarAction"
-            android:contentDescription="@string/description_home"
-            android:src="@drawable/title_home"
-            android:onClick="onClickHome" />
 
-        <ImageView style="@style/TitleBarSeparator" />
-        <TextView style="@style/TitleBarText" />
-        <ImageButton style="@style/TitleBarAction"
-            android:contentDescription="@string/description_about"
-            android:src="@drawable/title_about"
-            android:onClick="onClickAbout" />
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:background="#F4511E"
+            android:contentDescription="@string/description_home"
+            android:onClick="onClickHome"
+            android:src="@drawable/title_home" />
+
+        <TextView
+            style="@style/TitleBarText"
+            android:background="#F4511E" />
     </LinearLayout>
-    
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:background="#BA3E17"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/imgBtnAgregarVenta"
@@ -45,16 +46,15 @@
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" 
-        android:background="#ffcccccc">
+        android:layout_height="fill_parent"
+        android:background="@drawable/xml_bg_color_dipalza">
 
         <TableLayout
             android:id="@+id/tableLayoutVenta"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" 
+            android:layout_height="fill_parent"
             android:background="#ffcccccc"
-            android:stretchColumns="0,1"
-            >
+            android:stretchColumns="0,1">
 
         </TableLayout>
     </ScrollView>

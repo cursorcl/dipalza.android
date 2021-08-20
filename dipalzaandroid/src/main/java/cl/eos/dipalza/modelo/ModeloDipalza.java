@@ -1,8 +1,9 @@
 package cl.eos.dipalza.modelo;
 
+import android.content.Context;
+
 import java.util.List;
 
-import android.content.Context;
 import cl.eos.dipalza.database.DBDipalza;
 import cl.eos.dipalza.modelo.vistas.IModeloDipalza;
 import cl.eos.dipalza.ot.OTCliente;

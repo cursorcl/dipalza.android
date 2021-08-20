@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TableRow;
 import android.widget.TextView;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTRegistroVenta;
 
@@ -48,7 +49,7 @@ public class RowVenta extends TableRow
 	public RowVenta(Context context)
 	{
 		super(context);
-		View view = LayoutInflater.from(context).inflate(R.layout.row_test, this, false);
+		View view = LayoutInflater.from(context).inflate(R.layout.lista_ventas_item, this, false);
 		checBox = (CheckBox) view.findViewById(R.id.checkBoxRow);
 		checBox.setOnCheckedChangeListener((OnCheckedChangeListener) context);
 		cliente = (TextView) view.findViewById(R.id.textClienteRow);

@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/../dipalza.lib.transfer/dipalza.lib.transfer.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../dipalza.lib.transfer/dipalza.lib.transfer/src" />
+    </SOURCES>
   </library>
 </component>

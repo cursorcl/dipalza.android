@@ -17,25 +17,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    >
+    android:layout_height="wrap_content">
     <LinearLayout style="@style/TitleBar">
-        <ImageButton style="@style/TitleBarAction"
-            android:contentDescription="@string/description_home"
-            android:src="@drawable/title_home"
-            android:onClick="onClickHome" />
 
-        <ImageView style="@style/TitleBarSeparator" />
-        <TextView style="@style/TitleBarText" />
-        <ImageButton style="@style/TitleBarAction"
-            android:contentDescription="@string/description_about"
-            android:src="@drawable/title_about"
-            android:onClick="onClickAbout" />
+        <ImageButton
+            style="@style/TitleBarAction"
+            android:background="#F4511E"
+            android:contentDescription="@string/description_home"
+            android:onClick="onClickHome"
+            android:src="@drawable/title_home" />
+
+        <TextView
+            style="@style/TitleBarText"
+            android:background="#F4511E" />
     </LinearLayout>
-    
-<TextView  
-    android:layout_width="wrap_content" 
-    android:layout_height="wrap_content" 
-    android:text="@string/about_intro"
-    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="@string/aplicaci_n_de_ventas"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="@string/dipalza_ltda"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="@string/eliecer_osorio_v_cursor_cl_gmail_com"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/susan_far_as_z_susan_farias_gmail_com"
+        android:textSize="20sp" />
+
 </LinearLayout>

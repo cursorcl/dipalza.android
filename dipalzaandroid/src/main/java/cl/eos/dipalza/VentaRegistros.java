@@ -1,16 +1,11 @@
 package cl.eos.dipalza;
 
-import java.util.List;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
@@ -18,6 +13,9 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ImageButton;
 import android.widget.TableLayout;
+
+import java.util.List;
+
 import cl.eos.dipalza.factory.Fabrica;
 import cl.eos.dipalza.ot.OTRegistroVenta;
 import cl.eos.dipalza.ot.OTVenta;
@@ -127,35 +125,6 @@ public class VentaRegistros extends DashboardActivity implements
 		finish();
 	}
 
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.menuventas, menu);
-		return true;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case R.id.itemAgregarVenta:
-			agregarModificarVenta(null);
-			return true;		
-		case R.id.itemEliminarVentas:
-			eliminarVenta();
-			return true;
-		case R.id.itemCancelarVenta:
-			cancelarVenta();
-			return true;
-		default:
-			return super.onOptionsItemSelected(item);
-		}
-	}
 
 	/**
 	 * Metodo que elimina registro de ventas.
@@ -243,17 +212,13 @@ public class VentaRegistros extends DashboardActivity implements
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		switch (requestCode) {
-		case (1): {
-			if (resultCode == Activity.RESULT_OK) {
+		if (requestCode == 1 && resultCode == Activity.RESULT_OK)
+		{
 				Bundle bundle = data.getExtras();
 				venta = (OTVenta) bundle.get(VENTA);
 				Fabrica.obtenerInstancia().obtenerModeloDipalza()
 						.grabarVenta(venta);
 				actualizarRegistroVenta();
-			}
-			break;
-		}
 		}
 		rowSeleccionada = null;
 	}

@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    splits {
+        abi {
+            enable false
+            reset()
+            include  'x86'//, 'X86_64' , 'armeabi', 'armeabi-v7a', 'mips', 'mips64', 'arm64-v8a'
+            universalApk false
+        }
+    }
 
 
     signingConfigs {
@@ -17,16 +25,22 @@ android {
             keyPassword '_l2j1rs2'
         }
     }
-    compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "cl.eos.dipalza"
-        minSdkVersion 29
-        targetSdkVersion 29
-        versionCode = 1.0
-        versionName = 'DIP-1'
+        minSdkVersion 28
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 28
+        versionCode = 1.1
+        versionName = 'DIP-1.1'
         applicationIdSuffix = 'cl.eos'
+        signingConfig signingConfigs.release
+
+        ndk {
+            abiFilters 'x86'
+        }
     }
 
     buildTypes {
@@ -34,16 +48,16 @@ android {
             minifyEnabled false
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            debuggable false
+            renderscriptDebuggable false
+            jniDebuggable false
         }
     }
     compileOptions {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
-
-    packagingOptions {
-        exclude 'lib/dipalza.lib.transfer.jar'
-    }
+    ndkVersion ndkVersion
 
 }
 
@@ -54,5 +68,7 @@ dependencies {
     //noinspection GradlePath
     implementation files('d:/dev/SP EOS/dipalza2/dipalza.lib.transfer/dipalza.lib.transfer.jar')
     implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+
     //implementation 'com.android.support:appcompat-v7:28.0.0'
 }
