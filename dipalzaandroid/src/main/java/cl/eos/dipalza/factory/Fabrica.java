@@ -11,6 +11,7 @@ import cl.eos.dipalza.ActivityConfiguracion;
 import cl.eos.dipalza.DipalzaApplication;
 import cl.eos.dipalza.modelo.ModeloDipalza;
 import cl.eos.dipalza.transmision.ConexionTCP;
+import cl.eos.dipalza.transmision.ConexionTCPOutputOnly;
 
 public class Fabrica
 {
@@ -63,6 +64,14 @@ public class Fabrica
 		String ipDirection = preferences.getString(ActivityConfiguracion.PREF_IP, "localhost");
 		int port = 5500;
 		return new ConexionTCP(ipDirection, port);
+	}
+
+	public ConexionTCPOutputOnly obtenerConexionOutputOnly()
+	{
+		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+		String ipDirection = preferences.getString(ActivityConfiguracion.PREF_IP, "localhost");
+		int port = 5500;
+		return new ConexionTCPOutputOnly(ipDirection, port);
 	}
 
 	public static DecimalFormat getDecimalFormat()

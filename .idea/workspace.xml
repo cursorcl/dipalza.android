@@ -6,7 +6,6 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="EOS-&gt;" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
@@ -40,15 +39,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7b57ec-bfa7-4e68-8c1c-fb058b40630d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/boton_home_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home_pressed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -60,267 +52,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle_______dipalza_lib_transfer_dipalza_lib_transfer_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle_______dipalza_lib_transfer_dipalza_lib_transfer_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/dipalzaandroid/dipalza.android.dipalzaandroid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/dipalzaandroid/dipalza.android.dipalzaandroid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalza.android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalza.android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/release/dipalzaandroid-release.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/ActivityConOyentes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/ActivityConfiguracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/ActivityConfiguracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/AlarmReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/DipalzaReceiver.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/EnviarVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/EnviarVentas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/LocationUpdatesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/MainDipalza.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/MainDipalza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RecepcionCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RecepcionCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RowDetalleVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RowDetalleVenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RowVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RowVenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/RowVentaOriginal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/SearchActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentaDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentaDetalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentaEncabezado.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentaEncabezado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentaRegistros.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentaRegistros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentasResumen.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/VentasResumen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/database/DBDipalza.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/database/DBDipalza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/factory/Fabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/factory/Fabrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/modelo/ModeloDipalza.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/modelo/ModeloDipalza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/ot/OTProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/ot/OTProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/APIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/APIService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/APIServiceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/APIServiceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ConexionTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ConexionTCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ProcesadorCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ProcesadorCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/UtilitarioConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/UtilitarioConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/eventos/ottransmision/OTTInicializacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/eventos/ottransmision/OTTInicializacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/eventos/ottransmision/OTTListaDeClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/eventos/ottransmision/OTTListaDeClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/eventos/ottransmision/OTTListaProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/eventos/ottransmision/OTTListaProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/utilitarios/EmisorMensajes.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/utilitarios/EmisorMensajes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_bg_pressed.9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_bg_selected.9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_configurar.png" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/img_btn_configurar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_configurar_presionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_configurar_seleccionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_recibir.png" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/img_btn_recibir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_recibir_presionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_recibir_seleccionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_resumen.png" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/img_btn_resumen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_resumen_presionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_resumen_seleccionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_transmitir.png" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/img_btn_transmitir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_transmitir_presionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_transmitir_seleccionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_ventas.png" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/img_btn_ventas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_ventas_presionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/btn_ventas_seleccionado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_aceptar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_agregar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_agregar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_cancelar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_cancelar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_cliente.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_detalle_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_eliminar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_eliminar_venta_dos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_grabar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_grabar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_limpiar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_menu_terminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_mnu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_mnu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_tab_btn_recibir_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_tab_btn_recibir_unselected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_tab_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/light_bulb_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/light_bulb_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/light_bulb_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/rel_map_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/rel_map_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/rel_map_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/stack_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/stack_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/stack_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/stars_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/stars_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/stars_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/title_logo_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/title_logo_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/title_logo_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/title_search_alt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/title_search_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/venn_2_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/venn_2_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/venn_2_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_aceptar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_agregar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_agregar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_cancelar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_cancelar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_cliente.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_detalle_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_eliminar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_eliminar_venta_dos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_grabar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_grabar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_limpiar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_menu_terminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_mnu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_mnu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_tab_btn_recibir_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_tab_btn_recibir_unselected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_tab_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_aceptar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_agregar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_agregar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_cancelar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_cancelar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_cliente.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_detalle_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_eliminar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_eliminar_venta_dos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_grabar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_grabar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_limpiar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_menu_terminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_mnu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_mnu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_tab_btn_recibir_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_tab_btn_recibir_unselected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_tab_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_aceptar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_agregar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_agregar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_cancelar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_cancelar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_cliente.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_detalle_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_eliminar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_eliminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_eliminar_venta_dos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_grabar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_grabar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_limpiar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_modificar_producto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_modificar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_menu_terminar_venta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_mnu_emitir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_mnu_recibir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_tab_btn_recibir_selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_tab_btn_recibir_unselected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_tab_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/colortabla.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/configurar_button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/direction_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/fila_seleccionada.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/recibir_button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/resumen_button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/selector_fila.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/title_button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/title_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/title_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/title_logo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/title_search.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/transmitir_button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/ventas_button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/zoom_in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_about.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_search.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/clientes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/clientes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/emite_ventas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/emite_ventas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/inicializacion.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/list.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/productos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/productos.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/recibe_clientes_productos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/recibe_clientes_productos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/row_detalle_venta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/row_detalle_venta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/row_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/lista_ventas_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/title.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventadetalle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventadetalle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaencabezado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaencabezado.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaregistros.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaregistros.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventasresumen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventasresumen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menu_inicializacion.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menu_transmision.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menudetalle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menuencabezado.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menumaindipalza.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menuproducto.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/menu/menuventas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-hdpi/ic_cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-hdpi/ic_notify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-mdpi/ic_cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-mdpi/ic_notify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-xhdpi/ic_cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-xhdpi/ic_notify.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-xxhdpi/ic_cancel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-xxhdpi/ic_notify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/xml/configuracion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/xml/configuracion.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,13 +157,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dipalzaandroid/build/outputs/apk/release/dipalzaandroid-release.apk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Variables" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recommended.upgrade.last.time.stamp" value="1629337969787" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PsdUISettings">
@@ -429,17 +180,18 @@
       <recent name="cl.eos.dipalza.services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\SP EOS\dipalza2\dipalza.android\dipalzaandroid\src\main\res\drawable" />
       <recent name="D:\dev\SP EOS\dipalza2\dipalza.android\dipalzaandroid\src\main\res\layout" />
       <recent name="D:\dev\SP EOS\dipalza2\dipalza.android\dipalzaandroid" />
       <recent name="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/responses" />
       <recent name="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/parameters" />
-      <recent name="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cl.eos.dipalza" />
       <recent name="cl.eos.dipalza.gps" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cl.eos.dipalza.transmision" />
       <recent name="cl.eos.dipalza.rest.tasks" />
       <recent name="cl.eos.dipalza" />
       <recent name="cl.eos.dipalza.gps" />
@@ -669,6 +421,7 @@
       <configuration name="DIPALZA">
         <watch expression="e" language="JAVA" />
         <watch expression="autoCompleteArticulo.getAdapter().getItem(position).getObject()" language="JAVA" />
+        <watch expression="vectorVentas" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

@@ -40,7 +40,7 @@ import cl.eos.dipalza.ot.OTCliente;
 import cl.eos.dipalza.ot.OTEVenta;
 import cl.eos.dipalza.ot.OTItemVenta;
 import cl.eos.dipalza.ot.OTVenta;
-import cl.eos.dipalza.transmision.ConexionTCP;
+import cl.eos.dipalza.transmision.ConexionTCPOutputOnly;
 import cl.eos.dipalza.utilitarios.EmisorMensajes;
 
 public class EnviarVentas extends ActivityHandler implements OnClickListener
@@ -48,7 +48,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 	public static final String ENCABEZADO = "ENCABEZDO";
 	public static final String DETALLE = "DETALLE";
 	private static final String FORMATO = "Emitidos: %d de un total de %d.";
-	private Future<ConexionTCP> fConexion;
+	private Future<ConexionTCPOutputOnly> fConexion;
 	private String vendedor;
 	private String ruta;
 	private String ruta_adicional;
@@ -120,8 +120,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 		if (conectar())
 		{
 		    VectorVenta vectorVentas = new VectorVenta();
-		    
-		    
+
 			transmiting = true;
 			IDUnit identificacion = new IDUnit(vendedor, ruta);
 			identificacion.setIdUnit(vendedor);
@@ -154,7 +153,6 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 				}
 				rVenta.setVentas(rIemesVenta);
 				rVenta.setFecha(encabezado.getFecha());
-				
 				vectorVentas.add(rVenta);
 			}
 			
@@ -170,29 +168,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 			editor.putString(ActivityConfiguracion.FECHA_TRANSMISION, fecha.toLocaleString());
 			editor.commit();
 			txtUltimaTransmision.setText(fecha.toLocaleString());
-			try
-			{
-				fConexion.get().disconnect();
-			}
-			catch (IOException e)
-			{
-				notificarError("Dipalza:" + e.getLocalizedMessage());
-				transmiting = false;
-			}
-			catch (InterruptedException e)
-			{
-				notificarError("Dipalza:" + e.getLocalizedMessage());
-				transmiting = false;
-			}
-			catch (ExecutionException e)
-			{
-				notificarError("Dipalza:" + e.getLocalizedMessage());
-				transmiting = false;
-			}
-			finally
-			{
-				transmiting = false;
-			}
+
 		}
 	}
 
@@ -239,7 +215,25 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 	{
 		try
 		{
-			ConexionTCP conexion = fConexion.get();
+			final ConexionTCPOutputOnly conexion  = fConexion.get();
+			// Con esto me inscribo para saber cuando terminó de TX y cierro la conexión.
+			conexion.agregarEscuchadorFinTransmision(new ConexionTCPOutputOnly.FinTransmisionEscuchador() {
+				@Override
+				public void finTransmision() {
+					try
+					{
+						conexion.disconnect();
+					}
+					catch (Exception e)
+					{
+						notificarError("Dipalza:" + e.getLocalizedMessage());
+					}
+					finally
+					{
+						transmiting = false;
+					}
+				}
+			});
 			conexion.send(mensaje);
 		}
 		catch (InterruptedException e)
@@ -280,11 +274,11 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 	 * @author cursor
 	 * 
 	 */
-	private class Connector implements Callable<ConexionTCP>
+	private class Connector implements Callable<ConexionTCPOutputOnly>
 	{
-		public ConexionTCP call()
+		public ConexionTCPOutputOnly call()
 		{
-			ConexionTCP connection = Fabrica.obtenerInstancia().obtenerConexion();
+            ConexionTCPOutputOnly connection = Fabrica.obtenerInstancia().obtenerConexionOutputOnly();
 			try
 			{
 				connection.setHandler(getHandler());

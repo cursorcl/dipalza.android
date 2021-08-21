@@ -25,13 +25,9 @@
 
     <LinearLayout style="@style/TitleBar">
 
-        <ImageView
-            style="@style/TitleBarLogo"
-            android:contentDescription="@string/description_logo" />
-
         <TextView
             style="@style/TitleBarText"
-            android:background="#F4511E"
+            android:background="@color/title_background"
             android:text="@string/ventas_dipalza"
             />
 
@@ -53,47 +49,60 @@
             <Button
                 android:id="@+id/home_btn_recibir"
                 style="@style/HomeButton"
-                android:layout_height="140dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/img_btn_recibir"
                 android:onClick="onClickFeature"
                 android:text="@string/title_feature1"
-                android:textColor="#BF360C" />
+                android:paddingTop="10sp"
+                android:drawablePadding="-15sp"
+                 />
 
             <Button
                 android:id="@+id/home_btn_transmitir"
                 style="@style/HomeButton"
-                android:layout_height="140dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/img_btn_transmitir"
                 android:onClick="onClickFeature"
                 android:text="@string/title_feature2"
-                android:textColor="#BF360C" />
+                android:paddingTop="10sp"
+                android:drawablePadding="-15sp"
+                 />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/home_btn_resumen"
                 style="@style/HomeButton"
-                android:layout_height="140dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/img_btn_resumen"
                 android:onClick="onClickFeature"
                 android:text="@string/title_feature3"
-                android:textColor="#D50000"
-                tools:ignore="TextContrastCheck" />
+                android:paddingTop="10sp"
+                android:drawablePadding="-15sp"
+
+                 />
 
             <Button
                 android:id="@+id/home_btn_configurar"
                 style="@style/HomeButton"
-                android:layout_height="140dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/setting"
                 android:onClick="onClickFeature"
                 android:text="@string/title_feature4"
-                android:textColor="#BF360C"
-                tools:ignore="TextContrastCheck" />
+                android:paddingTop="10sp"
+                android:drawablePadding="-15sp"
+
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -105,21 +114,28 @@
             <Button
                 android:id="@+id/home_btn_ventas"
                 style="@style/HomeButton"
-                android:layout_height="140dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/img_btn_ventas"
                 android:onClick="onClickFeature"
                 android:text="@string/title_feature5"
-                android:textColor="#BF360C" />
+                android:paddingTop="10sp"
+                android:drawablePadding="-15sp"
+
+                 />
 
             <Button
                 android:id="@+id/home_btn_about"
                 style="@style/HomeButton"
-                android:layout_height="140dp"
-                android:drawableTop="@drawable/img_about"
+                android:layout_width="0dp"
+                android:layout_weight="1"
 
+                android:drawableTop="@drawable/img_about"
+                android:paddingTop="10sp"
                 android:onClick="onClickFeature"
                 android:text="@string/title_feature6"
-                android:textColor="#BF360C" />
+                android:drawablePadding="-15sp"
+                 />
         </LinearLayout>
 
     </LinearLayout>

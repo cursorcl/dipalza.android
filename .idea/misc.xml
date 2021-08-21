@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/bg_color_dipalza.xml" value="0.23489583333333333" />
+        <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/boton_home_selector.xml" value="0.25104166666666666" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/circle.xml" value="0.23489583333333333" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/colortabla.xml" value="0.23489583333333333" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/configurar_button.xml" value="0.23489583333333333" />
@@ -12,7 +13,9 @@
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/title_button.xml" value="0.23489583333333333" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/title_home.xml" value="0.23489583333333333" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/ventas_button.xml" value="0.23489583333333333" />
-        <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" value="0.2708333333333333" />
+        <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" value="0.2" />
+        <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home.xml" value="0.25104166666666666" />
+        <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home_pressed.xml" value="0.25104166666666666" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/activity_about.xml" value="0.21875" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/activity_home.xml" value="0.21875" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/activity_search.xml" value="0.23854166666666668" />
@@ -20,6 +23,7 @@
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/emite_ventas.xml" value="0.23854166666666668" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/inicializacion.xml" value="0.23854166666666668" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/list.xml" value="0.23854166666666668" />
+        <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/lista_ventas_item.xml" value="0.23489583333333333" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/productos.xml" value="0.23854166666666668" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/recibe_clientes_productos.xml" value="0.21875" />
         <entry key="..\:/dev/SP EOS/dipalza2/dipalza.android/dipalzaandroid/src/main/res/layout/row_detalle_venta.xml" value="0.23854166666666668" />

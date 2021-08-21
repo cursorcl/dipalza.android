@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="90"
+        android:startColor="@color/dipalza_gradient_start"
+        android:centerColor="@color/dipalza_gradient_center"
+        android:endColor="@color/dipalza_gradient_end"
+        ></gradient>
+    <padding android:left="15dp"
+        android:top="1dp"
+        android:right="15dp"
+        android:bottom="1dp" />
+    <stroke
+        android:width="1dp"
+        android:color="@color/dipalza_gradient_shadow" />
+    <corners android:radius="8dp" />
+</shape>

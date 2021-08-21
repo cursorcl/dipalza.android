@@ -7,14 +7,14 @@
 
         <ImageButton
             style="@style/TitleBarAction"
-            android:background="#F4511E"
+            android:background="@color/title_background"
             android:contentDescription="@string/description_home"
             android:onClick="onClickHome"
             android:src="@drawable/title_home" />
 
         <TextView
             style="@style/TitleBarText"
-            android:background="#F4511E" />
+            android:background="@color/title_background" />
     </LinearLayout>
 
     <LinearLayout
