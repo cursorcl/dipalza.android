@@ -254,7 +254,7 @@ public class DBDipalza extends SQLiteOpenHelper {
 	  try
 	  {
 		ContentValues registro = new ContentValues();
-		Log.w(TAG, "Insertando cliente " + cliente.getNombre());
+		Log.e(TAG, "Insertando cliente " + cliente.getNombre());
 		registro.put("idCliente", cliente.getIdCliente());
 		registro.put("ruta", ruta);
 		registro.put("vendendor", vendedor);

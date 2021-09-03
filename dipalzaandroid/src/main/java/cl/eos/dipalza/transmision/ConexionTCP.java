@@ -5,20 +5,24 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import com.grupo.biblioteca.EMessagesTypes;
 import com.grupo.biblioteca.MessageToTransmit;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 
 import cl.eos.dipalza.ActivityHandler;
+import cl.eos.dipalza.R;
 
 public class ConexionTCP implements Runnable {
     private Socket socket;
     private String ipDirection = "localhost";
-    private int port = 5500;
+    private int port = 5502;
     private ObjectOutputStream output = null;
     private ObjectInputStream input = null;
     private boolean alive = false;
@@ -41,8 +45,9 @@ public class ConexionTCP implements Runnable {
     public final void connect() throws IOException {
         procesador = new ProcesadorCliente();
         procesador.setHandler(this.handler);
-
-        socket = new Socket(ipDirection, port);
+        InetSocketAddress sockAdr = new InetSocketAddress(ipDirection, port);
+        socket = new Socket();
+        socket.connect(sockAdr, 5000);
         output = new ObjectOutputStream(socket.getOutputStream());
         output.flush();
         input = new ObjectInputStream(socket.getInputStream());
@@ -55,6 +60,8 @@ public class ConexionTCP implements Runnable {
     public final void disconnect() throws IOException {
         if (isConnected()) {
             procesador.setAlive(false);
+            input.close();
+            output.close();
             socket.close();
             notifyNotification("Desconetado del servidor");
         }
@@ -71,9 +78,16 @@ public class ConexionTCP implements Runnable {
                 try {
                     obj = input.readObject();
                     if (obj instanceof MessageToTransmit) {
+                        Log.i("MSG_VECTORVENTAS", "Llega un mensaje " + ((MessageToTransmit) obj).getType().getName());
                         procesador.addToProcess(obj);
+                        if(((MessageToTransmit)obj).getType().equals(EMessagesTypes.MSG_FINALIZED))
+                        {
+                            Log.i("MSG_VECTORVENTAS", "Desconectando");
+                            alive = false;
+                        }
                     }
                 } catch (Exception e) {
+                    notifyError("Excepción ha ocurrido en ConexionTCP-hebra.");
                     e.printStackTrace();
                     alive = false;
                 }
@@ -93,6 +107,11 @@ public class ConexionTCP implements Runnable {
         new Thread(() -> {
             try {
                 output.writeObject(mensaje);
+                output.flush();
+                MessageToTransmit finish = new MessageToTransmit();
+                finish.setIdPalm(mensaje.getIdPalm());
+                finish.setType(EMessagesTypes.MSG_FINALIZED);
+                output.writeObject(finish);
                 output.flush();
             } catch (Exception e) {
                 e.printStackTrace();

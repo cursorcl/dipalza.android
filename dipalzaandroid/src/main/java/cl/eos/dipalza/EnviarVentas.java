@@ -40,7 +40,7 @@ import cl.eos.dipalza.ot.OTCliente;
 import cl.eos.dipalza.ot.OTEVenta;
 import cl.eos.dipalza.ot.OTItemVenta;
 import cl.eos.dipalza.ot.OTVenta;
-import cl.eos.dipalza.transmision.ConexionTCPOutputOnly;
+import cl.eos.dipalza.transmision.ConexionTCP;
 import cl.eos.dipalza.utilitarios.EmisorMensajes;
 
 public class EnviarVentas extends ActivityHandler implements OnClickListener
@@ -48,7 +48,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 	public static final String ENCABEZADO = "ENCABEZDO";
 	public static final String DETALLE = "DETALLE";
 	private static final String FORMATO = "Emitidos: %d de un total de %d.";
-	private Future<ConexionTCPOutputOnly> fConexion;
+	private Future<ConexionTCP> fConexion;
 	private String vendedor;
 	private String ruta;
 	private String ruta_adicional;
@@ -131,6 +131,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 			List<OTVenta> ventas = Fabrica.obtenerInstancia().obtenerModeloDipalza().obtenerListadoVentas();
 			int nroVentas = 0;
 			notificarAvance(ENCABEZADO, 0, ventas.size());
+			String logVenta = "";
 			for (OTVenta venta : ventas)
 			{
 			    Venta rVenta = new Venta();
@@ -138,19 +139,25 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 				EncabezadoVenta encabezado = fromOTEVEntaToEncabezado(otEncabezado);
 				rVenta.setEncabezado(encabezado);
 				notificarAvance(ENCABEZADO, ++nroVentas, ventas.size());
-				Log.w("EOS->", "Ventas:" + nroVentas);
+
+				logVenta = logVenta + "{" + otEncabezado.getCliente();
 
 				List<OTItemVenta> itemVentas = venta.getRegistrosVenta();
 				int nroRegistros = 0;
 				notificarAvance(DETALLE, 0, itemVentas.size());
-				ItemesVenta rIemesVenta = new ItemesVenta(); 
+				ItemesVenta rIemesVenta = new ItemesVenta();
+
+				logVenta = logVenta + "[";
+				String registros = "";
 				for (OTItemVenta item : itemVentas)
 				{
 					ItemVenta itemVenta = fromOTItemVentaToItemVenta(item);
+					registros = registros + itemVenta.getArticulo() + " ";
 					rIemesVenta.add(itemVenta);
 					notificarAvance(DETALLE, ++nroRegistros, itemVentas.size());
-					Log.w("EOS->", "Registros:" + nroRegistros);
 				}
+				logVenta = logVenta  + registros.trim().replace(" ", "-");
+				logVenta = logVenta + "]}";
 				rVenta.setVentas(rIemesVenta);
 				rVenta.setFecha(encabezado.getFecha());
 				vectorVentas.add(rVenta);
@@ -161,6 +168,7 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 			mensaje.setType(EMessagesTypes.MSG_VECTORVENTAS);
 			mensaje.setData(vectorVentas);
 			enviarMensaje(mensaje);
+			Log.i("MSG_VECTORVENTAS", String.format("#Registros: %d => %s", vectorVentas.size(), logVenta));
 			
 			Date fecha = new Date();
 			SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -215,26 +223,10 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 	{
 		try
 		{
-			final ConexionTCPOutputOnly conexion  = fConexion.get();
-			// Con esto me inscribo para saber cuando terminó de TX y cierro la conexión.
-			conexion.agregarEscuchadorFinTransmision(new ConexionTCPOutputOnly.FinTransmisionEscuchador() {
-				@Override
-				public void finTransmision() {
-					try
-					{
-						conexion.disconnect();
-					}
-					catch (Exception e)
-					{
-						notificarError("Dipalza:" + e.getLocalizedMessage());
-					}
-					finally
-					{
-						transmiting = false;
-					}
-				}
-			});
+			final ConexionTCP conexion  = fConexion.get();
+			// La conexión se cierra automáticamente.
 			conexion.send(mensaje);
+			transmiting = false;
 		}
 		catch (InterruptedException e)
 		{
@@ -274,11 +266,11 @@ public class EnviarVentas extends ActivityHandler implements OnClickListener
 	 * @author cursor
 	 * 
 	 */
-	private class Connector implements Callable<ConexionTCPOutputOnly>
+	private class Connector implements Callable<ConexionTCP>
 	{
-		public ConexionTCPOutputOnly call()
+		public ConexionTCP call()
 		{
-            ConexionTCPOutputOnly connection = Fabrica.obtenerInstancia().obtenerConexionOutputOnly();
+            ConexionTCP connection = Fabrica.obtenerInstancia().obtenerConexion();
 			try
 			{
 				connection.setHandler(getHandler());

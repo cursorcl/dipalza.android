@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
@@ -39,39 +39,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be7b57ec-bfa7-4e68-8c1c-fb058b40630d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/boton_home_selector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home_pressed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/EnviarVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/EnviarVentas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/database/DBDipalza.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/database/DBDipalza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/factory/Fabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/factory/Fabrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_bg_color_dipalza.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable/xml_fondo_botones_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_about.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/clientes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/clientes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/emite_ventas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/emite_ventas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/productos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/productos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/recibe_clientes_productos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/recibe_clientes_productos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventadetalle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventadetalle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaencabezado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaencabezado.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaregistros.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventaregistros.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventasresumen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/layout/ventasresumen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ConexionTCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ConexionTCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/transmision/ConexionTCPOutputOnly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-ldpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dipalzaandroid/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +156,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recommended.upgrade.last.time.stamp" value="1629337969787" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PsdUISettings">
@@ -185,6 +178,9 @@
       <recent name="D:\dev\SP EOS\dipalza2\dipalza.android\dipalzaandroid" />
       <recent name="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/responses" />
       <recent name="$PROJECT_DIR$/dipalzaandroid/src/main/java/cl/eos/dipalza/rest/parameters" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\SP EOS\dipalza2\dipalza.android\dipalzaandroid\src\main\res\mipmap-xhdpi" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cl.eos.dipalza" />
