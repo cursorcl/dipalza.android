@@ -39,7 +39,7 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: ./../dipalza.lib.transfer/dipalza.lib.transfer.jar" level="project" />
+    <orderEntry type="library" name="Gradle: d:/dev/SP EOS/dipalza2/dipalza.lib.transfer/dipalza.lib.transfer.jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.6.0" level="project" />
